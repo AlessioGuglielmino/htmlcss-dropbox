@@ -20,6 +20,7 @@
   padding: 3px 6px;
   text-decoration: none;
   width: 200px;
+  text-align: center;
 }
 
 .container-big {
@@ -40,7 +41,7 @@ h2 {
   font-size: 2rem;
 }
 .check {
-  color: lime;
+  color: #0061ff;
 }
 
 /* CLASSI HEADER */
@@ -122,7 +123,10 @@ main {
   justify-content: space-around;
   margin: 40px 0;
   padding-left: 15px;
-  min-height: 200px;
+  /* min-height: 300px; */
+}
+.body-col > * {
+  margin-top: 25px;
 }
 .col-1 {
   width: calc((100% - 60px) / 3);
