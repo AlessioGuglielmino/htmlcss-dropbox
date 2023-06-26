@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* CLASSI UTILITA' */
+.button {
+  color: white;
+  background-color: blue;
+  padding: 3px 6px;
+  text-decoration: none;
+}
+
+.container-big {
+  width: 1180px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.container-small {
+  width: 900px;
+  margin: auto;
+}
+h1 {
+  font-size: 3rem;
+}
+/* CLASSI HEADER */
+
+header {
+  display: flex;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+li {
+  margin: 10px 15px;
+}
+.logo {
+  height: 20px;
+}
+
+.list-left,
+.list-right {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+/* CLASSI MAIN */
+main {
+  margin-top: 45px;
+}
+
+.jumbo {
+  background-color: #b4d0e7;
+}
+
+.container-col {
+  display: flex;
+}
+.pic-1 {
+  width: 50%;
+}
