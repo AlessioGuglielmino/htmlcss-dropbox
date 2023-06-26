@@ -122,8 +122,13 @@ main {
   flex-direction: column;
   justify-content: space-between;
   margin: 40px 0;
-  padding-left: 15px;
-  /* min-height: 300px; */
+  padding: 0 15px;
+}
+.body-col-4 {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+  padding: 0 15px;
 }
 .body-col > * {
   margin-top: 25px;
@@ -142,6 +147,12 @@ main {
   width: calc((100% - 60px) / 3);
   border: 1px black solid;
 }
+.col-4 {
+  border: 1px black solid;
+  display: flex;
+  flex-direction: column;
+}
+
 .title-col {
   border-bottom: 1px black solid;
   text-align: center;
@@ -154,4 +165,23 @@ main {
 #rule {
   margin-top: 30px;
   width: 60px;
+}
+
+.true {
+  display: flex;
+}
+
+.col-left {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+}
+.col-right {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+}
+
+.col-left > * {
+  margin-top: 25px;
 }
