@@ -102,7 +102,7 @@ main {
 .box-left {
   width: 30%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: column;
 }
 .box-right {
@@ -214,4 +214,19 @@ main {
   flex-direction: column;
   justify-content: space-around;
   padding-bottom: 200px;
+}
+/* TERZA SEZIONE */
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: calc(100% / 3 - 30px);
+  justify-content: center;
+  align-items: center;
+  margin: 50px 15px;
+}
+
+.card > * {
+  margin-top: 25px;
 }
