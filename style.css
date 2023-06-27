@@ -34,6 +34,13 @@ img {
   width: 200px;
   text-align: center;
 }
+.container-full {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 .container-big {
   width: 1180px;
   margin: auto;
@@ -229,4 +236,39 @@ main {
 
 .card > * {
   margin-top: 25px;
+}
+
+/* QUARTA SEZIONE */
+
+.Team {
+  line-height: 50px;
+  height: 200px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* QUINTA SEZIONE */
+.big-box {
+  width: calc(100% / 3);
+  display: flex;
+  flex-wrap: wrap;
+
+  height: 345px;
+}
+.box-svg {
+  width: calc(100% / 2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-svg > img {
+  width: 50%;
+}
+.designit {
+  background-color: #a2d39b;
+}
+.box-svg > img {
+  filter: invert(1);
 }
