@@ -36,7 +36,7 @@ img {
 }
 .button-4 {
   color: black;
-  padding: 5px 10px;
+  padding: 10px 20px;
   text-decoration: none;
   width: 200px;
   text-align: center;
@@ -329,4 +329,18 @@ main {
 }
 .right {
   width: 30%;
+}
+/* CLASSI FAQ */
+.faq-title {
+  margin: 40px 0;
+  line-height: 80px;
+}
+
+.faq-section {
+  margin-top: 20px;
+  line-height: 60px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
